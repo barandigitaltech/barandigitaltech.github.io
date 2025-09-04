@@ -1,1 +1,61 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #fdf5f6;
+    color: #333;
+    padding: 20px;
+  }
+ 
+  header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f4c2c2;
+    margin-bottom: 30px;
+  }
+ 
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+ 
+  nav a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+  }
+ 
+  main {
+    max-width: 800px;
+    margin: auto;
+  }
+ 
+  section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff5f7;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+ 
+  video {
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+  }
+ 
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #777;
+  }
+ 
 
